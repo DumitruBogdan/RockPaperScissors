@@ -44,7 +44,7 @@ class ViewModel: ObservableObject{
     
     public func returnSystemImage( decision: Decision ) -> String {
         if decision == .Rock {
-            let r = "✊🏽"
+            let r = "✊🏼"
             return r
         }
         else if decision == .Scissors {
