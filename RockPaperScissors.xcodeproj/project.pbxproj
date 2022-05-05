@@ -11,6 +11,8 @@
 		0ABDDBD02823D2F00045C35D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ABDDBCF2823D2F00045C35D /* ContentView.swift */; };
 		0ABDDBD22823D2F20045C35D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0ABDDBD12823D2F20045C35D /* Assets.xcassets */; };
 		0ABDDBD52823D2F20045C35D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0ABDDBD42823D2F20045C35D /* Preview Assets.xcassets */; };
+		0ABDDBDC2823D3510045C35D /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ABDDBDB2823D3510045C35D /* ViewModel.swift */; };
+		0ABDDBDE2823D4790045C35D /* Choice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ABDDBDD2823D4790045C35D /* Choice.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		0ABDDBCF2823D2F00045C35D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0ABDDBD12823D2F20045C35D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0ABDDBD42823D2F20045C35D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0ABDDBDB2823D3510045C35D /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		0ABDDBDD2823D4790045C35D /* Choice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Choice.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +55,10 @@
 		0ABDDBCC2823D2F00045C35D /* RockPaperScissors */ = {
 			isa = PBXGroup;
 			children = (
-				0ABDDBCD2823D2F00045C35D /* RockPaperScissorsApp.swift */,
+				0ABDDBDB2823D3510045C35D /* ViewModel.swift */,
+				0ABDDBDD2823D4790045C35D /* Choice.swift */,
 				0ABDDBCF2823D2F00045C35D /* ContentView.swift */,
+				0ABDDBCD2823D2F00045C35D /* RockPaperScissorsApp.swift */,
 				0ABDDBD12823D2F20045C35D /* Assets.xcassets */,
 				0ABDDBD32823D2F20045C35D /* Preview Content */,
 			);
@@ -138,6 +144,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0ABDDBD02823D2F00045C35D /* ContentView.swift in Sources */,
+				0ABDDBDC2823D3510045C35D /* ViewModel.swift in Sources */,
+				0ABDDBDE2823D4790045C35D /* Choice.swift in Sources */,
 				0ABDDBCE2823D2F00045C35D /* RockPaperScissorsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
